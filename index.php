@@ -427,7 +427,7 @@ include_once("config.php");
      $('#notvalid').hide();
     
 function checkmail() {
-  if($('#exampleInputEmail2').val() =='' || $('#name').val() || $('#mobile').val() =='' ||$('#passs').val() ==''){
+  if($('#exampleInputEmail2').val() =='' || $('#name').val() == '' || $('#mobile').val() =='' ||$('#passs').val() ==''){
     $('#alertfields').show();
     $('#alertfields').html("All Fields are mandatory");
   }else{
